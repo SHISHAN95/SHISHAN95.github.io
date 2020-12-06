@@ -1,0 +1,302 @@
+h1,
+h2 {
+	font-family: 'Anonymous Pro', monospace;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	background-color: #222;
+	color: #fff;
+}
+
+header a {
+	text-decoration: none;
+	color: #d4d4d4;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+.btn {
+	background-color: #feca30;
+	display: inline-block;
+	width: 240px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	border-radius: 25px;
+	padding: 0 25px;
+	box-sizing: border-box;
+	color: #222;
+	font-weight: 700;
+	margin-top: 60px;
+    position: relative;
+}
+
+.btn:hover {
+	background-color: white;
+}
+
+.desc {
+	margin-top: 55px;
+	font-weight: 400;
+	color: #d4d4d4;
+}
+.btn:after {
+  content: "";
+  background-image: url(../img/right_arrow.png_613.png);
+  position: absolute;
+  width: 19px;
+  height: 16px;
+  right: 25px;     
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 1040px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.about_us .left_column {
+	width: 250px;
+}
+
+nav,
+.main_menu,
+.menu_contacts {
+	display: flex;
+}
+
+nav {
+	align-items: center;
+}
+
+nav a:hover {
+	color: #fff;
+}
+
+.logo {
+	margin-right: 65px;
+}
+
+.main_menu li {
+	margin-right: 35px;
+}
+
+.menu_contacts li {
+	margin-left: 25px;
+}
+
+.menu_container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about_us {
+	padding-top: 100px;
+	padding-bottom: 180px;
+}
+
+.about_us {
+	background-image: url('../img/moon_rocket.png_610%20(1).png');
+	background-repeat: no-repeat;
+    background-position: 840px 68px;
+}
+
+.about_us .left_column {
+	padding-left: 120px;
+}
+
+.features {
+	padding: 90px 0 80px 0;
+	background-color: #131313;
+	color: #d4d4d4;
+}
+
+.features_list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.features_list li {
+	width: 180px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.sentence {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	color: #222;
+}
+
+.sentence .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.sentence .left_column,
+.sentence .right_column {
+	width: 440px;
+}
+
+.sentence h2 {
+	margin-bottom: 55px;
+	margin-top: 0;
+}
+
+.guide {
+	padding-bottom: 80px;
+}
+
+.guide .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.guide .left_column,
+.guide .right_column {
+	width: 400px;
+}
+
+.guide h2 {
+	margin-bottom: 40px;
+}
+.recommendation_list {
+    padding-left: 30px;
+}
+
+.recommendation_list li {
+	margin-bottom: 20px;
+    position: relative;
+}
+.recommendation_list li:before {
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #fecd3c;
+    left: -30px;
+    top: 5px;
+    border-radius: 100%
+    
+    
+}
+
+
+footer {
+	padding: 65px 0 85px 0;
+	background-color: #131313;
+}
+
+footer .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer .left_column {
+	width: 160px;
+}
+
+.footer-menu {
+	display: flex;
+}
+
+.footer-menu > li {
+	width: 180px;
+	margin-left: 75px;
+}
+
+.logo_container {
+	display: flex;
+	align-items: center;
+}
+
+.logo_container img {
+	margin-right: 25px;
+}
+
+.footer-menu > li > a {
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #888;
+	display: block;
+}
+
+.footer_submenu li {
+	margin-bottom: 20px;
+}
+
+.footer_submenu > li > a {
+	color: #888;
+	text-decoration: none;
+}
+
+.footer_submenu > li > a:hover {
+	color: #fff;
+}
+
+footer .left_column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.copyright {
+	margin-bottom: 20px;
+	color: #555;
+}
+
+.logo_container {
+	color: #fff;
+}
+
+.feature-made-in-russia:before {
+ content: "";
+ width: 60px;
+ height: 68px;
+ background-image: url('../img/advantage_icon_1.png_620.png');
+ position: absolute;
+    top: 0;
+}
+.feature-food:before {
+ content: "";
+ width: 60px;
+ height: 68px;
+ background-image: url('../img/advantage_icon_2.png_621.png');
+ position: absolute;
+ top: 0;
+}
+.featere-pilots:before {
+ content: "";
+ width: 60px;
+ height: 68px;
+ background-image: url('../img/advantage_icon_3.png_622.png');
+ position: absolute;
+ top: 0;
+}
+.feature-moon-rover:before {
+ content: "";
+ width: 60px;
+ height: 68px;
+ background-image: url('../img/advantage_icon_4.png_623.png');
+ position: absolute;
+ top: 0;
+}
+
